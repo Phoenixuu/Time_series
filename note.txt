@@ -1,0 +1,32 @@
+Dataset nằm trên kaggle, vì quá dung lượng nên không thể lưu ở trên git
+
+Ý nghĩa các bài toán 
+
+1. Linear Regression with Time Series
+- Ý nghĩa: Dự đoán chuỗi thời gian mối quan hệ tuyến tính
+- Dùng: Thời gian và tuyên tính rõ ràng
+- Dự đoán tương lai chuỗi thời gian đơn giản tuyến tính
+
+2. Trend
+- Ý nghĩa: Xác định chuỗi thời gian, phân tích hướng đi
+- Dùng: THay đổi theo một hướng trong 1 khoảng thời gian dài
+- Dự đoán tốt hơn, loại bỏ các xu hướng
+
+3. Seasonality
+- Ý nghĩa: Thay đổi theo chu kì
+- Dùng: Khi chuỗi thời gian thay đổi có chu kì
+- Xử lý các chuỗi thời gian có chu kì rõ ràng
+
+4. Time Series as Features
+- Ý nghĩa: Sử dụng thông số từ chuỗi thời gian (trung bình, phương sai) làm đặc trưng
+- Dùng: Cung cấp mô hình học máy nhưng không trực tiếp như biến phụ thuộc
+
+5. Hybrid Models (mô hình kết hợp)
+- Ý nghĩa: Tận dụng lợi thế kết hợp các chuỗi thời gian như Exponential Smoothing với mô hình (Random Forest, XGBoost) để cải thiện khả năng dự đoán
+- Dùng: Kết hợp các ưu điểm của các phưng pháp khác nhau tối ưu hóa dự đoán. Thời gian có nhiều yếu tố ảnh hưởng phức tạp
+- Trong các bài toán phức tạp, dự đoán chính xác hơn
+
+6. Forecasting with ML
+- Ý nghĩa: Kết hợp với mô hình học máy (Random Forest, XGBoost, LSTM)
+- Dùng: Khi chuỗi thời gian có cấu trúc phức tạp tác động nhiều yếu tố bên ngoài
+- Dự báo giá trị trong tương lai khi có sự ảnh hưởng nhiều yếu tố, phân tích khách hạng, đoán lượng sản xuất, ....
