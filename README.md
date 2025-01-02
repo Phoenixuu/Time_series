@@ -10,3 +10,4 @@ Learning and practicing Time series
 
 4. Time series as features
 
+5. Hybrid Models

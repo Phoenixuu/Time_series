@@ -25,6 +25,7 @@ Dataset nằm trên kaggle, vì quá dung lượng nên không thể lưu ở tr
 - Ý nghĩa: Tận dụng lợi thế kết hợp các chuỗi thời gian như Exponential Smoothing với mô hình (Random Forest, XGBoost) để cải thiện khả năng dự đoán
 - Dùng: Kết hợp các ưu điểm của các phưng pháp khác nhau tối ưu hóa dự đoán. Thời gian có nhiều yếu tố ảnh hưởng phức tạp
 - Trong các bài toán phức tạp, dự đoán chính xác hơn
+- Kỹ thuật: Sử dụng thuật toán emsemble ML, train và cộng phần tự cải thiện để giúp độ tăng độ chính xác, có sử dụng XGBoost để tăng tốc
 
 6. Forecasting with ML
 - Ý nghĩa: Kết hợp với mô hình học máy (Random Forest, XGBoost, LSTM)
