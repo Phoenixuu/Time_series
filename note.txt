@@ -31,3 +31,8 @@ Dataset nằm trên kaggle, vì quá dung lượng nên không thể lưu ở tr
 - Ý nghĩa: Kết hợp với mô hình học máy (Random Forest, XGBoost, LSTM)
 - Dùng: Khi chuỗi thời gian có cấu trúc phức tạp tác động nhiều yếu tố bên ngoài
 - Dự báo giá trị trong tương lai khi có sự ảnh hưởng nhiều yếu tố, phân tích khách hạng, đoán lượng sản xuất, ....
+- Kỹ thuật:
+1 Multioutput model: đơn giản hiệu quả, XGBoost không hỗ trợ
+2 Direct strategy: đào tạo mô hình riêng biệt, bài 1 bước, 2 bước .. dễ bị tốn tài nguyên
+3 Recursive strategy: lấy kết quả dự báo bước 1 lam data dự báo bước 2. Dễ bị sai theo dây chuyền
+4 DirRec strategy: kết hợp direct và recursive, có bộ trễ đầy đù, có qua hệ tuần tự. nhưng cũng có thể lỗi lây lan.
